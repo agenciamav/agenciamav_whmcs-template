@@ -1,0 +1,1 @@
+# agenciamav_whmcs-template
