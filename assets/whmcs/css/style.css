@@ -1,0 +1,59 @@
+@import url('../fonts/stylesheet.css');
+
+body{
+	font-family: 'proxima_nova_rgregular', sans-serif;
+	font-size:15px;
+}
+#navbar-logo {
+  max-height: 25px;
+  /* margin: 3px; */
+  /* height: 25px; */
+}
+#navbar-logo i.fa.fa-stop {
+  -ms-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+.navbar-header .nav .dropdown .dropdown-toggle{        
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span{
+	font-family: 'proxima_novalight', sans-serif;
+	font-weight: 100;
+	/* border-bottom: 1px #4ccccc solid; */
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'proxima_novablack', sans-serif;
+  text-transform:uppercase;
+  letter-spacing: -1px;
+  /* border-bottom: 1px #dedede solid; */
+}
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
+  font-family: 'proxima_novalight', sans-serif;
+  display: table-row;
+  color: #999999;    margin: 0;    font-weight: normal;
+  font-size: 0.5em;
+}
+
+p {
+  font-size: 15px;
+}
+
+
+/* HEADER */
+.navbar-header nav ul.nav li a{
+	
+    padding: 12px;
+    line-height: 25px;
+}
+.navbar-header nav ul.nav li a strong{
+  color: #4ccccc;
+  margin: 0 5px;
+}

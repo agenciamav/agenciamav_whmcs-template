@@ -1,0 +1,64 @@
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-weight: 100 !important;
+    line-height: 20px;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+p {
+    font-size: 13px !important;
+}
+h3 {
+    font-size: 18px !important;
+}
+.well {
+    background: #fff !important;
+}
+.well span {
+    background: #655E5E;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+button.btn, input[type="submit"].btn {
+    padding: 10px;
+}
+.lm {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: right;
+    /* width: 200px; */
+}
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+    width: 590px !important;
+}
+img {
+    width: auto\9;
+    height: auto;
+    max-width: 300px !important;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.table td {
+    font-size: 13px;
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+ .sit{
+    text-align: right;
+    background-color: #D83333;
+    color: #fff;
+    padding: 5px;
+    margin-top: 20px;
+}
